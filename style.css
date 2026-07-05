@@ -251,4 +251,44 @@ margin-top:50px;
 font-size:38px;
 }
 
+.tag{
+display:inline-block;
+background:#2563eb;
+padding:8px 18px;
+border-radius:30px;
+margin-bottom:20px;
+font-size:14px;
+}
+
+.hero span{
+color:#4f8cff;
+}
+
+.why{
+padding:80px 8%;
+}
+
+.stats{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:30px;
+padding:80px 8%;
+text-align:center;
+}
+
+.stat{
+background:#161b22;
+padding:35px;
+border-radius:20px;
+transition:.3s;
+}
+
+.stat:hover{
+transform:translateY(-8px);
+}
+
+.stat h2{
+font-size:45px;
+color:#4f8cff;
+margin-bottom:10px;
 }
